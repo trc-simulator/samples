@@ -1,0 +1,44 @@
+Choreonoid RoKiプラグイン講習会用
+
+1.モータモデルのありなし．
+[モデルファイル]
+arm_2dof_geared.wrl, arm2_2dof_geared.yaml: モータ特性ありのアームモデル，RokiSampleに使われているものと同じ
+arm_2dof_notgeared.wrl: モータ特性なしのアームモデル．
+
+[コントローラ]
+Arm2dofPushController.cpp: モータ特性ありモデル用コントローラ，RokiSampleと同じ．
+
+[プロジェクト]
+LectureRoKiArmGeared.cnoid: モータ特性ありシミュレーション，RokiSampleと同じ．
+LectureRoKiArmTrq.cnoid: モータ特性なしシミュレーション，モデルとコントローラを変えただけ．
+LectureRoKiArmNone.cnoid: モータ特性なしシミュレーション，シミュレータにAISTSimulatorを利用．
+
+
+2.硬さの違う地面におけるSR1歩行
+[モデルファイル]
+floor_hard.wrl: 硬い床
+floor_soft.wrl: 軟らかい床
+
+[コントローラ]
+SR1WalkStopPatternController.cpp: SR1歩行モーション，手をおろして10秒くらい歩行
+
+[プロジェクト]
+LectureRoKiSoftHardGround.cnoid: 硬い地面から軟らかい地面へSR1が歩行するシミュレーション
+
+[contact infoについて]
+RokiSimulatorItemの使用上，各リンクのstuffは
+"オブジェクト名(Choreonoidのプロジェクト上の名前)" + "リンク名"
+となる．contact infoをファイルから与える場合，すべてのstuff対について記述する．
+
+ファイルはcontact_info.zci，makeと同時にshare/model/misc/にコピーされる．
+
+3.破壊模擬
+[モデルファイル]
+breakWallModel.wrl: RokiSampleと同じ
+breakWall_hard.yaml, -soft-, -none-: それぞれ硬い，軟らかい，壊れない(すごく硬い)の3種類の壁モデル．
+
+[コントローラ]
+Arm2dofBreakWallController.cpp: 破壊の閾値が分かるように弱く壁に当てた後，初期値に戻し，強く壁に当てるモーションコントローラ．
+
+[プロジェクト]
+LectureRoKiBreakWallHard.cnoid, -Soft-, -None-: それぞれ壁が硬い，軟らかい，壊れないシミュレーション

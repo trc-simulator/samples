@@ -1,0 +1,420 @@
+[contact]
+bind : SR1_WAIST Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_WAIST Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_WAIST_P Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_WAIST_P Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_WAIST_R Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_WAIST_R Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_CHEST Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_CHEST Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LARM_SHOULDER_P Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LARM_SHOULDER_P Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LARM_SHOULDER_R Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LARM_SHOULDER_R Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LARM_SHOULDER_Y Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LARM_SHOULDER_Y Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LARM_ELBOW Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LARM_ELBOW Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LARM_WRIST_Y Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LARM_WRIST_Y Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LARM_WRIST_P Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LARM_WRIST_P Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LARM_WRIST_R Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LARM_WRIST_R Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RARM_SHOULDER_P Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RARM_SHOULDER_P Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RARM_SHOULDER_R Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RARM_SHOULDER_R Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RARM_SHOULDER_Y Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RARM_SHOULDER_Y Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RARM_ELBOW Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RARM_ELBOW Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RARM_WRIST_Y Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RARM_WRIST_Y Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RARM_WRIST_P Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RARM_WRIST_P Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RARM_WRIST_R Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RARM_WRIST_R Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LLEG_HIP_R Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LLEG_HIP_R Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LLEG_HIP_P Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LLEG_HIP_P Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LLEG_HIP_Y Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LLEG_HIP_Y Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LLEG_KNEE Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LLEG_KNEE Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LLEG_ANKLE_P Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LLEG_ANKLE_P Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_LLEG_ANKLE_R Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_LLEG_ANKLE_R Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RLEG_HIP_R Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RLEG_HIP_R Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RLEG_HIP_P Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RLEG_HIP_P Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RLEG_HIP_Y Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RLEG_HIP_Y Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RLEG_KNEE Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RLEG_KNEE Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RLEG_ANKLE_P Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RLEG_ANKLE_P Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
+[contact]
+bind : SR1_RLEG_ANKLE_R Floor-Hard_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+compensation : 2000.0
+relaxation : 0.1
+
+[contact]
+bind : SR1_RLEG_ANKLE_R Floor-Soft_BASE
+staticfriction : 1.0
+kineticfriction : 0.7
+elasticity : 80.0
+viscosity : 0.5
+
